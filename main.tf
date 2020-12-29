@@ -1,7 +1,8 @@
 terraform{
 	required_version = "=0.12.3"
 	backend "azurerm" {
-	   resource_group_name = "demo"
+	   resource_group_name = "demo" 
+	   container_name = "devops"
 	   key = "terraform.tfstate"
 	}
 }
