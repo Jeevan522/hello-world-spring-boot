@@ -4,8 +4,7 @@ echo "Terraform Initializing...."
 
 terraform version
 
-terraform init \
-    -get-plugins=true \
-	-verify-plugins=true
+terraform init 
+    
 	
 echo "completed"
